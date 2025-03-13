@@ -85,14 +85,13 @@ img {
   font-style: normal;
 }
 
-.contact-list {
+.contacts-list {
   display: flex;
   gap: 40px;
 }
 
 .contact {
-  display: flex;
-  gap: 40px;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -155,7 +154,7 @@ img {
 /* section2 */
 
 .feature {
-  padding: 120px 0;
+  padding: 120px 0 120px;
 }
 
 .feature-title {
@@ -168,10 +167,10 @@ img {
 }
 
 .feature-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
-featire-list-title {
+.featire-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -253,7 +252,7 @@ featire-list-title {
   margin-bottom: 72px;
 }
 
-.portfolio-list {
+.portolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
