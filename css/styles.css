@@ -175,10 +175,11 @@ img {
 .feature-list {
   display: flex;
   gap: 24px;
+  padding: 0;
 }
 
 .feature-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .feature-item-title {
