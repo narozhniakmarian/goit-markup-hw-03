@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -14,6 +18,22 @@ li {
 
 img {
   display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -108,9 +128,10 @@ img {
 /* section1 */
 
 
-.hero {
+.hero .container {
   padding: 188px 0;
   background-color: #2e2f42;
+  padding: 188px 0 188px 0;
 }
 
 .hero-title {
@@ -122,6 +143,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -135,6 +159,8 @@ img {
   display: block;
   min-width: 169px;
   height: 56px;
+  margin-left: auto;
+  margin-right: auto;
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -153,7 +179,7 @@ img {
 
 /* section2 */
 
-.feature {
+.feature .container {
   padding: 120px 0 120px;
 }
 
@@ -199,7 +225,7 @@ img {
 }
 
 /* section3 */
-.team {
+.team .container {
   padding: 120px 0;
   background-color: #f4f4fd;
 }
@@ -250,7 +276,7 @@ img {
 }
 
 /* section4 */
-.portfolio {
+.portfolio .container {
   padding-top: 120px;
   padding-bottom: 120px;
 }
