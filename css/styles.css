@@ -36,6 +36,12 @@ p {
   padding: 0;
 }
 
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 
@@ -44,9 +50,7 @@ p {
 
 
 .header .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+  align-items: center;
   display: flex;
 
 }
@@ -54,6 +58,11 @@ p {
 .navbar {
   display: flex;
   align-items: center;
+}
+
+.header-logo {
+  padding: 24px 0;
+
 }
 
 .logo span {
@@ -80,10 +89,12 @@ p {
 .nav-list {
   display: flex;
   gap: 40px;
+  align-items: center;
 
 }
 
 .nav-list-item {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -103,6 +114,7 @@ p {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contacts-list {
@@ -111,7 +123,8 @@ p {
 }
 
 .contact {
-
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -127,12 +140,11 @@ p {
 
 /* section1 */
 
-
-.hero .container {
-  padding: 188px 0;
+.hero {
   background-color: #2e2f42;
   padding: 188px 0 188px 0;
 }
+
 
 .hero-title {
   max-width: 496px;
@@ -179,7 +191,7 @@ p {
 
 /* section2 */
 
-.feature .container {
+.feature {
   padding: 120px 0 120px;
 }
 
@@ -217,7 +229,7 @@ p {
   margin-bottom: 8px;
 }
 
-.info-list-text {
+.feature-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -225,7 +237,7 @@ p {
 }
 
 /* section3 */
-.team .container {
+.team {
   padding: 120px 0;
   background-color: #f4f4fd;
 }
@@ -276,9 +288,8 @@ p {
 }
 
 /* section4 */
-.portfolio .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.portfolio {
+  padding: 120px 0;
 }
 
 .portfolio-title {
@@ -319,7 +330,7 @@ p {
   border-top: none;
 }
 
-.portfolio-card-text {
+.portfolio-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -329,11 +340,12 @@ p {
 /* footer */
 .footer {
   background-color: #2e2f42;
-  color: white;
   padding: 100px 0;
 }
 
+
 .logo-footer {
+  display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -350,6 +362,8 @@ p {
 }
 
 .footer-text {
+  display: block;
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
